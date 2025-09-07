@@ -82,42 +82,6 @@ Power BI Desktop
 Git
 ```
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/yourusername/luxury-housing-analysis.git
-cd luxury-housing-analysis
-```
-
-### 2. Python Environment Setup
-```bash
-# Create virtual environment
-python -m venv housing_analysis_env
-
-# Activate environment
-# Windows:
-housing_analysis_env\Scripts\activate
-# Linux/Mac:
-source housing_analysis_env/bin/activate
-
-# Install dependencies
-pip install pandas numpy matplotlib seaborn sqlalchemy pymysql jupyter
-```
-
-### 3. Database Setup
-```bash
-# Start MySQL service
-mysql -u root -p
-
-# Execute schema creation
-mysql -u root -p < bangalore_house.sql
-```
-
-### 4. Run Analysis
-```bash
-# Launch Jupyter Notebook
-jupyter notebook bangalore_house.ipynb
-```
-
 ## 📈 Key Analytical Insights
 
 ### Market Performance Metrics
@@ -219,10 +183,8 @@ luxury-housing-analysis/
 
 ## 📧 Contact
 
-**Project Developer**: [Your Name]
-- Email: your.email@domain.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Project Developer**: [Deepak Manian]
+- LinkedIn: [www.linkedin.com/in/deepak-manian]
 
 ## 📄 License
 
